@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+
+
+
+@media screen and (min-width: 570px){
+    body{
+        background-color: coral;
+    }
+    .news{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: #fff;
+    }
+    .news p, h1{
+        padding: 10px;
+    }
+
+}
+@media screen and (min-width: 1020px){
+    body{
+        background-color: rgb(80, 141, 255);
+    }
+    .news{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background: #fff;
+    }
+    .news p, h1{
+        padding: 10px;
+    }
+
+}
